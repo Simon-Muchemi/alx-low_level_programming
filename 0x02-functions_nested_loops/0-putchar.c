@@ -1,14 +1,20 @@
-#include <main.h>
+#include "main.h"
 /**
- * main - Entry point
- * Description: prints out '_putchar'
+ * main: Entry point
+ * Description: prints '_putchar'
  * Return: Always 0 (success)
  */
 int main(void)
 {
-char text = "_putchar";
+char str[] = "_putchar\n";
+int i = 0;
 
-printf("%s", text);
+while (str[i] != '\0')
+	{
+	char c = str[i];
 
+	_putchar(c);
+	i++;
+	}
 return (0);
 }
