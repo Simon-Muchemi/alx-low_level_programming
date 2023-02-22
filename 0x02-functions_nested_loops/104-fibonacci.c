@@ -29,9 +29,9 @@ int numLength(int num)
 int main(void)
 {
 	unsigned long fib1 = 1;
-       	unsigned long fib2 = 2;
-        unsigned long tmp;
-        unsigned long mx = 100000000;
+	unsigned long fib2 = 2;
+	unsigned long tmp;
+	unsigned long mx = 100000000;
 	unsigned long f1o = 0;
 	unsigned long f2o = 0;
 	unsigned long tmpo = 0;
