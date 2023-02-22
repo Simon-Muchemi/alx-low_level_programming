@@ -1,30 +1,28 @@
 #include <stdio.h>
-
 /**
- * main - Prints the first 98 fibonacci numbers
- * Return: 0 if success 
+ *main - entry point
+ *Return: 0 if success
  */
 int main(void)
 {
-	int i = 0;
-	long j = 1, k = 2;
+	int fib[100];
+	int i;
 
-	while (i < 96)
-	{
-		if (i == 0)
-			printf("%ld", j);
-		else if (i == 1)
-			printf(", %ld", k);
-		else
-		{
-			k += j;
-			j = k - j;
-			printf(", %ld", k);
-		}
+	fib[0] = 1;
+	fib[1] = 2;
 
-		++i;
+	for (i = 2; i < 100; i++)
+       	{
+		fib[i] = fib[i-1] + fib[i-2];
 	}
 
-	printf("\n");
+	for (i = 0; i < 98; i++)
+	{
+		printf("%d, ", fib[i]);
+	}
+
+	printf("%d\n", fib[98]);
+
 	return (0);
 }
+
