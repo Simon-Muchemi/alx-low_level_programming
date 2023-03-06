@@ -6,9 +6,9 @@
  * Return: dest string
  */
 
-char *_memcpy(char *dest, char *src, unasigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	unasigned int j;
+	unsigned int j;
 
 	for (j = 0; j < n; j++)
 	{
