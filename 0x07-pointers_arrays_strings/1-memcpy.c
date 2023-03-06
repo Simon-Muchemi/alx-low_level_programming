@@ -4,6 +4,7 @@
  * @dest: pointer to first string parameter
  * @src: pointer to string parameter 2
  * Return: dest string
+ */
 
 char *_memcpy(char *dest, char *src, unasigned int n)
 {
