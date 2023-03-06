@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * *_memcpy - copys specified bytes of memory area
- * @dest: pointer to first string parameter
- * @src: pointer to string parameter 2
- * Return: dest string
+ * *_memcpy - copies memory area
+ * @dest: memory area
+ * @src: source
+ * Return: pointer to dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
