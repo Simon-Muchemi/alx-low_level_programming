@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * is_divisible - check if a number is prime.
  * @num: The number to be checked.
  * @div: The divisor.
  *
