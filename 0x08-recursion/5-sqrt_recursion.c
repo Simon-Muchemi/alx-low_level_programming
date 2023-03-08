@@ -3,6 +3,8 @@
  *find_square_root - finds the natural square of a number
  *@num: The number
  *@root: the current number to check
+ *Return: the root of the number
+ *or -1 f the number has no square root
  */
 int find_square_root(int num, int root)
 {
