@@ -6,11 +6,11 @@
  */
 int find_square_root(int num, int root)
 {
-	if (root * root > n)
+	if (root * root > num)
 	{
 		return (-1);
 	}
-	else if (root * root == n)
+	else if (root * root == num)
 	{
 		return (root);
 	}
