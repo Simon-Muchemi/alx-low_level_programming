@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - prints out product if two arguments 
+ * main - prints out product if two arguments
  * @argc: Number of command line arguments
  * @argv: Array name
  * Return: 1 if not enough arguments passed in, 0 otherwise
